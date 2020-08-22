@@ -1,0 +1,77 @@
+#mainbody{
+	margin: 0 auto;
+}
+
+.heading{
+	float: left;
+	width: 45%;
+	margin: 0 auto;
+}
+
+#generate-input{
+	margin: 50px 0 50px 100px;
+	width: 400px;
+	padding: 10px;
+	border-radius: 4px;
+}
+
+#send-generate{
+	text-decoration: none;
+	padding: 10px;
+	background-color: cornflowerblue;
+	color: white;
+	border: none;
+}
+
+#scan-loading{
+	margin: 0 auto;
+}
+
+.cam{
+	width: 45%;
+	float: right;
+}
+
+	#qr-canvas{
+		display:none;
+	}
+
+	#outdiv{
+		width:400px;
+		height:400px;
+	}
+
+	#v{
+		width:400px;
+		height:400px;
+	}
+
+	@media screen and (max-width: 480px){
+		
+		#outdiv{
+			width:190px;
+			height:190px;
+		}
+		
+	    #v{
+			width:190px;
+			height:190px;
+		}
+		
+		@media screen and (max-device-width: 480px) 
+	              and (orientation:portrait){
+	  
+			#outdiv{
+				width:270px;
+				height:270px;
+
+			}
+			
+		    #v{
+				width:270px;
+				height:270px;
+			}
+		
+		}
+
+	}
